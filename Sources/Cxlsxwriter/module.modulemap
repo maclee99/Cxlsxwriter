@@ -1,7 +1,8 @@
 //Sources/Cxlsxwriter/module.modulemap
 module Cxlsxwriter {
-    header "../../Headers/Cxlsxwriter-Bridging-Header.h"
+    /* header "../../Headers/Cxlsxwriter-Bridging-Header.h" */
     /* header "/usr/local/include/xlsxwriter.h" */
+    header "/usr/include/xlsxwriter.h"
     /*header "xlsxwriter.h"*/
     link "xlsxwriter"
     export *
